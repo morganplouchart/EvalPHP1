@@ -1,0 +1,29 @@
+body { margin:0; padding:0;font-family: Arial, Helvetica, sans-serif;}
+
+
+header {
+    background:#26C6DA;
+    margin:0; padding:0;
+}
+
+footer {background:#26C6DA;
+    margin:0; padding:0; }
+
+input {color:black;padding:10px;}
+input:focus{ background: black; color:white; transition:1s all;}
+input[type="submit"] {border:none; border-radius:0px; background: black; color: white; padding:20px; width:200px;}
+input[type="submit"]:hover {background: orange; transition:1s all;}
+
+form, .form {padding:30px; display:flex;flex-direction: column;width:100%;}
+ul {margin:0;padding:20px;display:flex;align-items: center; width:960px; margin:0 auto;}
+ul li { padding:10px; list-style: none ; }
+ul li a {text-decoration: none;color:white; font-size: 1.2em; }
+ul li a:hover  { color:black; transition: 1s all;}
+.content { width:960px; margin:0 auto; margin-top:20px; background: #fefefe;}
+
+ul h1 { margin-right:20px;}
+
+.produit {margin-bottom:20px; display:flex;}
+.card-body a { text-decoration: none; color:black; padding:10px; background: orange; }
+.card-body img {width:250px; height:220px;}
+.card-body p span{ color:red; font-size: 1.2em;}

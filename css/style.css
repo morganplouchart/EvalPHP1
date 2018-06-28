@@ -1,13 +1,12 @@
 body { margin:0; padding:0;font-family: Arial, Helvetica, sans-serif;}
 
-
 header {
-    background:#26C6DA;
+    background:orange;
     margin:0; padding:0;
 }
 
-footer {background:#26C6DA;
-    margin:0; padding:0; }
+footer {background:#333;
+    margin:0; padding:0; height:100px; }
 
 input {color:black;padding:10px;}
 input:focus{ background: black; color:white; transition:1s all;}
@@ -17,13 +16,20 @@ input[type="submit"]:hover {background: orange; transition:1s all;}
 form, .form {padding:30px; display:flex;flex-direction: column;width:100%;}
 ul {margin:0;padding:20px;display:flex;align-items: center; width:960px; margin:0 auto;}
 ul li { padding:10px; list-style: none ; }
-ul li a {text-decoration: none;color:white; font-size: 1.2em; }
-ul li a:hover  { color:black; transition: 1s all;}
+ul li a {text-decoration: none;color:black; font-size: 1.2em;padding:10px; }
+.active {text-decoration: none;color:black; font-size: 1.2em;padding:10px; }
+ul li a:hover  { text-decoration: none;color:white; background: black; padding:10px;}
 .content { width:960px; margin:0 auto; margin-top:20px; background: #fefefe;}
 
 ul h1 { margin-right:20px;}
 
 .produit {margin-bottom:20px; display:flex;}
 .card-body a { text-decoration: none; color:black; padding:10px; background: orange; }
-.card-body img {width:250px; height:220px;}
+.card-body img {width:250px; height:160px;}
 .card-body p span{ color:red; font-size: 1.2em;}
+.card:hover {z-index:999;transform: scale(1.1);transition: 0.5s all;-moz-box-shadow: 0px 0px 10px 0px #656565;
+    -webkit-box-shadow: 0px 0px 10px 0px #656565;
+    -o-box-shadow: 0px 0px 10px 0px #656565;
+    box-shadow: 0px 0px 10px 0px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=10);}
+a.log {text-decoration: none; color:black; float:right;z-index: 999;}

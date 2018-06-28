@@ -20,8 +20,6 @@
         
 ?>
 
-
-
 <section>
         <div class="content">
         <form action="panier.php" method="POST">
@@ -34,7 +32,7 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <p>prix : <span>249 €</span></p>
                             <a href="index.php?ajouter=PS4">Ajouter</a>
-                            <a href="panier.php">Voir le panier</a> <br><br><br> (<?php print $panier_count; ?> produits)<br><br><br>
+                            <a href="panier.php">Voir le panier</a> <br><br><br> (<?php print $panier_count; ?> produits dans le panier)<br><br><br>
                         </div>
                     </div>
                 </div>
@@ -46,7 +44,7 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <p>prix : <span>249 €</span></p>
                             <a href="index.php?ajouter=Switch">Ajouter</a>
-                            <a href="panier.php">Voir le panier</a> <br><br><br> (<?php print $panier_count; ?> produits)<br><br><br>
+                            <a href="panier.php">Voir le panier</a> <br><br><br> (<?php print $panier_count; ?> produits dans le panier)<br><br><br>
                         </div>
                     </div>
                 </div>
@@ -58,7 +56,7 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <p>prix : <span>199 €</span></p>
                             <a href="index.php?ajouter=XboxOne">Ajouter</a>
-                            <a href="panier.php">Voir le panier</a> <br><br><br> (<?php print $panier_count; ?> produits)<br><br><br>
+                            <a href="panier.php">Voir le panier</a> <br><br><br> (<?php print $panier_count; ?> produits dans le panier)<br><br><br>
                         </div>
                     </div>
                 </div>
@@ -72,7 +70,7 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <p>prix : <span>399 €</span></p>
                             <a href="index.php?ajouter=XboxOneX">Ajouter</a>
-                            <a href="panier.php">Voir le panier</a> <br><br><br> (<?php print $panier_count; ?> produits)<br><br><br>
+                            <a href="panier.php">Voir le panier</a> <br><br><br> (<?php print $panier_count; ?> produits dans le panier)<br><br><br>
                         </div>
                     </div>
                 </div>
@@ -84,17 +82,19 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <p>prix : <span>349 €</span></p>
                             <a href="index.php?ajouter=PS4PRO">Ajouter</a>
-                            <a href="panier.php">Voir le panier</a> <br><br><br> (<?php print $panier_count; ?> produits)<br><br><br>
+                            <a href="panier.php">Voir le panier</a> <br><br><br> (<?php print $panier_count; ?> produits dans le panier)<br><br><br>
                         </div>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title">Produit3</h5>
+                            <h5 class="card-title">Casque vr sony</h5>
+                            <img src="./img/vr.png"/>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p>prix : <span>299 €</span></p>
                             <a href="index.php?ajouter=Produit6">Ajouter</a>
-                            <a href="panier.php">Voir le panier</a> <br><br><br> (<?php print $panier_count; ?> produits)<br><br><br>
+                            <a href="panier.php">Voir le panier</a> <br><br><br> (<?php print $panier_count; ?> produits dans le panier)<br><br><br>
                         </div>
                     </div>
                 </div>
